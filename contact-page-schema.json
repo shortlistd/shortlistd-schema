@@ -1,0 +1,253 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebPage",
+      "@id": "https://www.shortlistd.io/contact#webpage",
+      "url": "https://www.shortlistd.io/contact",
+      "name": "Contact shortlistd.io - Get a Demo of AI Recruitment Platform",
+      "description": "Contact shortlistd.io for a demo of our AI recruitment platform. Automated screening, talent matching, and voice interviews. Transform your hiring today.",
+      "isPartOf": {
+        "@id": "https://www.shortlistd.io/#website"
+      },
+      "breadcrumb": {
+        "@id": "https://www.shortlistd.io/contact#breadcrumb"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.shortlistd.io/contact#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.shortlistd.io"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Contact",
+          "item": "https://www.shortlistd.io/contact"
+        }
+      ]
+    },
+    {
+      "@type": "ContactPage",
+      "@id": "https://www.shortlistd.io/contact#contactpage",
+      "mainEntity": {
+        "@id": "https://www.shortlistd.io/contact#contactpoint"
+      }
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://www.shortlistd.io/contact#organization",
+      "name": "Shortlistd",
+      "legalName": "Shortlistd, Inc",
+      "url": "https://www.shortlistd.io",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.shortlistd.io/logo.svg"
+      },
+      "contactPoint": [
+        {
+          "@type": "ContactPoint",
+          "@id": "https://www.shortlistd.io/contact#contactpoint",
+          "contactType": "Sales",
+          "email": "info@shortlistd.io",
+          "telephone": "+1-302-676-0061",
+          "areaServed": "Worldwide",
+          "availableLanguage": ["English"],
+          "contactOption": "TollFree"
+        },
+        {
+          "@type": "ContactPoint",
+          "contactType": "Customer Support",
+          "email": "info@shortlistd.io",
+          "telephone": "+1-302-676-0061",
+          "areaServed": "Worldwide",
+          "availableLanguage": ["English"]
+        }
+      ],
+      "address": [
+        {
+          "@type": "PostalAddress",
+          "streetAddress": "221 W 9th St",
+          "addressLocality": "Wilmington",
+          "addressRegion": "DE",
+          "postalCode": "19801",
+          "addressCountry": "US"
+        },
+        {
+          "@type": "PostalAddress",
+          "streetAddress": "651 N Broad St",
+          "addressLocality": "Middletown",
+          "addressRegion": "Delaware",
+          "postalCode": "19709",
+          "addressCountry": "US"
+        }
+      ],
+      "email": "info@shortlistd.io",
+      "telephone": "+1-302-676-0061"
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.shortlistd.io/contact#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Can shortlistd.io be customized to fit our recruitment needs?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes! shortlistd.io offers fully customizable workflows so you can tailor the platform to your unique hiring needs. Whether you're a startup or enterprise, we adapt to your requirements."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I integrate shortlistd.io with my current HR tools?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, shortlistd.io integrates seamlessly with most popular HR tools, including ATS, calendar systems, and communication platforms, making it easy to plug into your existing workflow."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can shortlistd.io scale with my business as we grow?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes! shortlistd.io is designed to scale with your business, whether you're a small team or a large enterprise. You can upgrade your plan and access more credits as your hiring needs grow."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How does shortlistd.io handle data security?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "We take security very seriously. shortlistd.io uses advanced security protocols to protect your data, ensuring all candidate information is handled securely and in compliance with privacy regulations."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is shortlistd.io?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "shortlistd.io is an AI hiring agent that can source, screen and interview candidates, saving you hours each week to focus more on top talent."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "Service",
+      "@id": "https://www.shortlistd.io/contact#demo-service",
+      "serviceType": "Product Demo",
+      "name": "AI Recruitment Platform Demo",
+      "description": "Schedule a personalized demo of shortlistd.io's AI recruitment platform with automated screening, voice interviews, and intelligent talent matching",
+      "provider": {
+        "@id": "https://www.shortlistd.io/contact#organization"
+      },
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD",
+        "description": "Free platform demo and consultation",
+        "availability": "https://schema.org/InStock"
+      },
+      "areaServed": {
+        "@type": "Country",
+        "name": "Worldwide"
+      }
+    },
+    {
+      "@type": "Action",
+      "name": "Request Demo",
+      "target": {
+        "@type": "EntryPoint",
+        "urlTemplate": "https://www.shortlistd.io/contact",
+        "actionPlatform": [
+          "http://schema.org/DesktopWebPlatform",
+          "http://schema.org/MobileWebPlatform"
+        ]
+      },
+      "object": {
+        "@type": "Product",
+        "name": "shortlistd.io AI Recruitment Platform"
+      }
+    },
+    {
+      "@type": "ItemList",
+      "name": "Contact Methods",
+      "description": "Ways to get in touch with shortlistd.io",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Email",
+          "item": {
+            "@type": "ContactPoint",
+            "email": "info@shortlistd.io",
+            "contactType": "Customer Service"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Phone",
+          "item": {
+            "@type": "ContactPoint",
+            "telephone": "+1-302-676-0061",
+            "contactType": "Sales"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Office Address",
+          "item": {
+            "@type": "PostalAddress",
+            "streetAddress": "221 W 9th St",
+            "addressLocality": "Wilmington",
+            "addressRegion": "DE",
+            "postalCode": "19801",
+            "addressCountry": "US"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "LocalBusiness",
+      "name": "Shortlistd, Inc",
+      "image": "https://www.shortlistd.io/logo.svg",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "221 W 9th St",
+        "addressLocality": "Wilmington",
+        "addressRegion": "DE",
+        "postalCode": "19801",
+        "addressCountry": "US"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": "39.7459",
+        "longitude": "-75.5466"
+      },
+      "url": "https://www.shortlistd.io",
+      "telephone": "+1-302-676-0061",
+      "email": "info@shortlistd.io",
+      "priceRange": "$$",
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday"
+          ],
+          "opens": "09:00",
+          "closes": "18:00"
+        }
+      ]
+    }
+  ]
+}

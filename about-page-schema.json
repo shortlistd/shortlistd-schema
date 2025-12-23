@@ -1,0 +1,244 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebPage",
+      "@id": "https://www.shortlistd.io/about#webpage",
+      "url": "https://www.shortlistd.io/about",
+      "name": "About shortlistd.io - AI Recruitment Platform Founders & Mission",
+      "description": "Meet the founders of shortlistd.io: Adil Gwiazdowski (CEO) and Yatin Vij (CTO). Learn about our mission to transform recruitment with autonomous AI agents.",
+      "isPartOf": {
+        "@id": "https://www.shortlistd.io/#website"
+      },
+      "breadcrumb": {
+        "@id": "https://www.shortlistd.io/about#breadcrumb"
+      },
+      "about": {
+        "@id": "https://www.shortlistd.io/#organization"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.shortlistd.io/about#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.shortlistd.io"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "About",
+          "item": "https://www.shortlistd.io/about"
+        }
+      ]
+    },
+    {
+      "@type": "AboutPage",
+      "@id": "https://www.shortlistd.io/about#aboutpage",
+      "mainEntity": {
+        "@id": "https://www.shortlistd.io/#organization"
+      }
+    },
+    {
+      "@type": "Person",
+      "@id": "https://www.shortlistd.io/about#adil",
+      "name": "Adil Gwiazdowski",
+      "givenName": "Adil",
+      "familyName": "Gwiazdowski",
+      "jobTitle": "Co-founder & CEO",
+      "worksFor": {
+        "@type": "Organization",
+        "name": "Shortlistd"
+      },
+      "description": "Adil Gwiazdowski is Co-founder & CEO of shortlistd.io, building autonomous AI agents that source, screen, and interview candidates through conversational AI. With 20+ years in recruitment, including directing a $50M ARR tech talent business at Halian, he's focused on solving information asymmetry in modern labor markets.",
+      "url": "https://ae.linkedin.com/in/adilgwiazdowski",
+      "sameAs": [
+        "https://ae.linkedin.com/in/adilgwiazdowski",
+        "https://adilgwiazdowski.bio.link/"
+      ],
+      "alumniOf": {
+        "@type": "EducationalOrganization",
+        "name": "Columbia University",
+        "startDate": "2021",
+        "endDate": "2022"
+      },
+      "knowsAbout": [
+        "Recruitment",
+        "Talent Acquisition",
+        "Business Management",
+        "AI in Hiring",
+        "Technical Recruiting",
+        "Managed Services",
+        "Business Development"
+      ],
+      "hasOccupation": {
+        "@type": "Occupation",
+        "name": "Chief Executive Officer",
+        "occupationLocation": {
+          "@type": "City",
+          "name": "Dubai",
+          "containedInPlace": {
+            "@type": "Country",
+            "name": "United Arab Emirates"
+          }
+        }
+      },
+      "image": "https://framerusercontent.com/images/5HgIpZObbfCDB1OOzzyBH0yx2I.jpg"
+    },
+    {
+      "@type": "Person",
+      "@id": "https://www.shortlistd.io/about#yatin",
+      "name": "Yatin Vij",
+      "givenName": "Yatin",
+      "familyName": "Vij",
+      "jobTitle": "Co-founder & Chief Technology Officer",
+      "worksFor": {
+        "@type": "Organization",
+        "name": "Shortlistd"
+      },
+      "description": "Yatin Vij is Co-founder & CTO at shortlistd.io with nearly 8 years building large-scale AI systems across healthcare, consulting, and enterprise environments. His specialization in Agentic AI enables autonomous agents that own entire recruitment workflows. Previously built multimodal AI systems at ConcertAI and developed analytics solutions at ZS Associates.",
+      "alumniOf": {
+        "@type": "EducationalOrganization",
+        "name": "Amity University",
+        "hasCredential": {
+          "@type": "EducationalOccupationalCredential",
+          "credentialCategory": "degree",
+          "name": "Bachelor of Technology (BTech)"
+        }
+      },
+      "knowsAbout": [
+        "Artificial Intelligence",
+        "Agentic AI",
+        "Machine Learning",
+        "Data Science",
+        "Natural Language Processing",
+        "Large Language Models",
+        "Healthcare AI",
+        "Document AI",
+        "ML Operations"
+      ],
+      "hasOccupation": {
+        "@type": "Occupation",
+        "name": "Chief Technology Officer"
+      }
+    },
+    {
+      "@type": "Organization",
+      "name": "Shortlistd",
+      "description": "shortlistd.io was founded in 2023 by Adil Gwiazdowski and Yatin Vij to solve the recruitment trilemma through autonomous AI agents. The platform delivers speed, quality, and cost-effectiveness simultaneously - something that constrained the industry for decades.",
+      "foundingDate": "2023",
+      "foundingLocation": {
+        "@type": "City",
+        "name": "Dubai",
+        "containedInPlace": {
+          "@type": "Country",
+          "name": "United Arab Emirates"
+        }
+      },
+      "founder": [
+        {
+          "@id": "https://www.shortlistd.io/about#adil"
+        },
+        {
+          "@id": "https://www.shortlistd.io/about#yatin"
+        }
+      ],
+      "employees": [
+        {
+          "@id": "https://www.shortlistd.io/about#adil"
+        },
+        {
+          "@id": "https://www.shortlistd.io/about#yatin"
+        }
+      ],
+      "numberOfEmployees": {
+        "@type": "QuantitativeValue",
+        "value": "2-10"
+      }
+    },
+    {
+      "@type": "Article",
+      "@id": "https://www.shortlistd.io/about#founder-story",
+      "headline": "How Two Experts Saw the Future of Recruitment Coming",
+      "description": "The story of how Adil Gwiazdowski and Yatin Vij came together to build shortlistd.io, transforming a broken hiring system into the world's first comprehensive AI workforce solution.",
+      "author": [
+        {
+          "@id": "https://www.shortlistd.io/about#adil"
+        },
+        {
+          "@id": "https://www.shortlistd.io/about#yatin"
+        }
+      ],
+      "publisher": {
+        "@id": "https://www.shortlistd.io/#organization"
+      },
+      "datePublished": "2024-08-01",
+      "image": "https://framerusercontent.com/images/TtSesE1tU8lbuIRkaoq0aWUWSE.jpg",
+      "articleBody": "The convergence of artificial intelligence and recruitment wasn't an accident-it was inevitable. This is the story of how two visionaries came together to build shortlistd.io, transforming a broken hiring system into the world's first comprehensive AI workforce solution.",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://www.shortlistd.io/blog/how-two-experts-saw-the-future-of-recruitment-coming"
+      }
+    },
+    {
+      "@type": "VideoObject",
+      "name": "How Two Experts Saw the Future of Recruitment Coming",
+      "description": "Watch the story of shortlistd.io founders Adil Gwiazdowski and Yatin Vij as they explain their vision for transforming recruitment with AI agents",
+      "thumbnailUrl": "https://framerusercontent.com/images/TtSesE1tU8lbuIRkaoq0aWUWSE.jpg",
+      "uploadDate": "2024-08-01",
+      "contentUrl": "https://www.youtube.com/watch?v=ADsqXFZVp6Q",
+      "embedUrl": "https://www.youtube.com/embed/ADsqXFZVp6Q",
+      "publisher": {
+        "@id": "https://www.shortlistd.io/#organization"
+      },
+      "creator": [
+        {
+          "@id": "https://www.shortlistd.io/about#adil"
+        },
+        {
+          "@id": "https://www.shortlistd.io/about#yatin"
+        }
+      ]
+    },
+    {
+      "@type": "ItemList",
+      "name": "Company Timeline",
+      "description": "Key milestones in shortlistd.io's journey",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "item": {
+            "@type": "Event",
+            "name": "Company Founded",
+            "startDate": "2023",
+            "description": "Adil Gwiazdowski and Yatin Vij co-founded shortlistd.io to transform recruitment with autonomous AI agents"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "item": {
+            "@type": "Event",
+            "name": "Early Results Achieved",
+            "startDate": "2024-01",
+            "description": "Achieved 6x faster candidate processing, 40% reduction in time-to-hire, and 60% improvement in candidate-role matching"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "item": {
+            "@type": "Event",
+            "name": "Intake Agent Launch",
+            "startDate": "2024-08",
+            "description": "Launched the Intake Agent, creating comprehensive dual-sided profiles for perfect candidate-company matches"
+          }
+        }
+      ]
+    }
+  ]
+}
