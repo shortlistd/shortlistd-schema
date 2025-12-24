@@ -202,43 +202,6 @@
           "@id": "https://www.shortlistd.io/about#yatin"
         }
       ]
-    },
-    {
-      "@type": "ItemList",
-      "name": "Company Timeline",
-      "description": "Key milestones in shortlistd.io's journey",
-      "itemListElement": [
-        {
-          "@type": "ListItem",
-          "position": 1,
-          "item": {
-            "@type": "Event",
-            "name": "Company Founded",
-            "startDate": "2023",
-            "description": "Adil Gwiazdowski and Yatin Vij co-founded shortlistd.io to transform recruitment with autonomous AI agents"
-          }
-        },
-        {
-          "@type": "ListItem",
-          "position": 2,
-          "item": {
-            "@type": "Event",
-            "name": "Early Results Achieved",
-            "startDate": "2024-01",
-            "description": "Achieved 6x faster candidate processing, 40% reduction in time-to-hire, and 60% improvement in candidate-role matching"
-          }
-        },
-        {
-          "@type": "ListItem",
-          "position": 3,
-          "item": {
-            "@type": "Event",
-            "name": "Intake Agent Launch",
-            "startDate": "2024-08",
-            "description": "Launched the Intake Agent, creating comprehensive dual-sided profiles for perfect candidate-company matches"
-          }
-        }
-      ]
     }
   ]
 }
