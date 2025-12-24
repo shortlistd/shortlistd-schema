@@ -33,24 +33,28 @@
       ]
     },
     {
-      "@type": "Product",
-      "name": "shortlistd.io - Service-Based Recruitment",
+      "@type": "Service",
+      "@id": "https://www.shortlistd.io/pricing#service-based",
+      "serviceType": "AI Recruitment Service - Service-Based",
+      "name": "Service-Based Recruitment",
       "description": "Managed sourcing & screening service with success-based fee structure. For teams who want recruitment results, not tools.",
-      "brand": {
-        "@type": "Brand",
-        "name": "Shortlistd"
+      "provider": {
+        "@type": "Organization",
+        "name": "Shortlistd",
+        "url": "https://www.shortlistd.io"
+      },
+      "areaServed": {
+        "@type": "Place",
+        "name": "Worldwide"
       },
       "offers": {
         "@type": "Offer",
         "name": "Service-Based Pricing",
         "description": "End-to-end recruitment using our AI workforce",
         "priceCurrency": "USD",
-        "price": "Contact for pricing",
         "priceValidUntil": "2025-12-31",
         "availability": "https://schema.org/InStock",
-        "url": "https://www.shortlistd.io/pricing",
-        "itemCondition": "https://schema.org/NewCondition",
-        "validFrom": "2024-01-01"
+        "url": "https://www.shortlistd.io/pricing"
       },
       "aggregateRating": {
         "@type": "AggregateRating",
@@ -58,27 +62,93 @@
         "ratingCount": "9",
         "bestRating": "5",
         "worstRating": "1"
+      },
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Service Features",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Dedicated Account Manager",
+              "description": "Personal recruitment partner managing your hiring pipeline"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Guaranteed Quality Shortlists",
+              "description": "Pre-screened candidates matched to your requirements"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Success-Based Fees",
+              "description": "Pay only when you hire the right candidate"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Full AI Workflow Management",
+              "description": "We handle sourcing, screening, and interviewing"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Ideal for Growing Teams",
+              "description": "Perfect for companies hiring 5-20 roles annually"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "No Upfront Costs",
+              "description": "Risk-free recruitment with performance-based pricing"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "End-to-End Support",
+              "description": "From job brief to offer acceptance"
+            }
+          }
+        ]
       }
     },
     {
-      "@type": "Product",
-      "name": "shortlistd.io - Platform-Based Licensing",
+      "@type": "Service",
+      "@id": "https://www.shortlistd.io/pricing#platform-based",
+      "serviceType": "AI Recruitment Platform - Platform-Based",
+      "name": "Platform-Based Licensing",
       "description": "Full autonomous AI agent access with flexible licensing. For teams scaling internal teams without scaling headcount.",
-      "brand": {
-        "@type": "Brand",
-        "name": "Shortlistd"
+      "provider": {
+        "@type": "Organization",
+        "name": "Shortlistd",
+        "url": "https://www.shortlistd.io"
+      },
+      "areaServed": {
+        "@type": "Place",
+        "name": "Worldwide"
       },
       "offers": {
         "@type": "Offer",
         "name": "Platform-Based Pricing",
         "description": "Flexible licensing based on team size and usage with full autonomous AI agent access",
         "priceCurrency": "USD",
-        "price": "Contact for pricing",
         "priceValidUntil": "2025-12-31",
         "availability": "https://schema.org/InStock",
-        "url": "https://www.shortlistd.io/pricing",
-        "itemCondition": "https://schema.org/NewCondition",
-        "validFrom": "2024-01-01"
+        "url": "https://www.shortlistd.io/pricing"
       },
       "aggregateRating": {
         "@type": "AggregateRating",
@@ -86,87 +156,112 @@
         "ratingCount": "9",
         "bestRating": "5",
         "worstRating": "1"
+      },
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Platform Features",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Full Platform Access",
+              "description": "Complete control over AI recruitment workflow"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Unlimited AI Interviews",
+              "description": "Run as many AI-powered interviews as needed"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Self-Service Portal",
+              "description": "Direct access to 800M+ candidate profiles"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Custom Workflows",
+              "description": "Build recruitment processes tailored to your needs"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Team Collaboration",
+              "description": "Multi-user access with role-based permissions"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "API Access",
+              "description": "Integration with your existing HR tech stack"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Advanced Analytics",
+              "description": "Deep insights into hiring metrics and ROI"
+            }
+          }
+        ]
       }
     },
     {
-      "@type": "ItemList",
-      "name": "Service-Based Features",
-      "itemListElement": [
+      "@type": "FAQPage",
+      "mainEntity": [
         {
-          "@type": "ListItem",
-          "position": 1,
-          "name": "Managed sourcing & screening service"
+          "@type": "Question",
+          "name": "What's the difference between service-based and platform-based pricing?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Service-based pricing is a managed service where we handle the entire recruitment process for you with success-based fees. Platform-based pricing gives you direct access to our AI recruitment platform with flexible licensing based on team size and usage."
+          }
         },
         {
-          "@type": "ListItem",
-          "position": 2,
-          "name": "Success-based fee structure"
+          "@type": "Question",
+          "name": "Do you offer custom pricing for enterprises?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, we provide custom enterprise pricing tailored to your hiring volume, team size, and specific requirements. Contact us to discuss your needs."
+          }
         },
         {
-          "@type": "ListItem",
-          "position": 3,
-          "name": "End-to-end recruitment using our AI workforce"
+          "@type": "Question",
+          "name": "Is there a free trial available?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, we offer demos and trial periods for both service-based and platform-based options. Contact our team to get started."
+          }
         },
         {
-          "@type": "ListItem",
-          "position": 4,
-          "name": "Access to 800M+ candidate profiles"
+          "@type": "Question",
+          "name": "What's included in the service-based pricing?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Service-based pricing includes a dedicated account manager, guaranteed quality shortlists, success-based fees (pay only when you hire), full AI workflow management, and end-to-end support from job brief to offer acceptance."
+          }
         },
         {
-          "@type": "ListItem",
-          "position": 5,
-          "name": "AI-powered screening and interviews"
-        },
-        {
-          "@type": "ListItem",
-          "position": 6,
-          "name": "Dedicated account management"
-        },
-        {
-          "@type": "ListItem",
-          "position": 7,
-          "name": "Guaranteed shortlist delivery"
-        }
-      ]
-    },
-    {
-      "@type": "ItemList",
-      "name": "Platform-Based Features",
-      "itemListElement": [
-        {
-          "@type": "ListItem",
-          "position": 1,
-          "name": "Flexible licensing based on team size and usage"
-        },
-        {
-          "@type": "ListItem",
-          "position": 2,
-          "name": "ROI-focused pricing model"
-        },
-        {
-          "@type": "ListItem",
-          "position": 3,
-          "name": "Full autonomous AI agent access"
-        },
-        {
-          "@type": "ListItem",
-          "position": 4,
-          "name": "Access to 800M+ candidate profiles"
-        },
-        {
-          "@type": "ListItem",
-          "position": 5,
-          "name": "AI-powered screening and interviews"
-        },
-        {
-          "@type": "ListItem",
-          "position": 6,
-          "name": "ATS integrations"
-        },
-        {
-          "@type": "ListItem",
-          "position": 7,
-          "name": "Premium technical support"
+          "@type": "Question",
+          "name": "Can I switch between pricing models?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, you can switch between service-based and platform-based pricing models as your needs evolve. We'll work with you to ensure a smooth transition."
+          }
         }
       ]
     }
