@@ -158,22 +158,6 @@
       }
     },
     {
-      "@type": "Action",
-      "name": "Request Demo",
-      "target": {
-        "@type": "EntryPoint",
-        "urlTemplate": "https://www.shortlistd.io/contact",
-        "actionPlatform": [
-          "http://schema.org/DesktopWebPlatform",
-          "http://schema.org/MobileWebPlatform"
-        ]
-      },
-      "object": {
-        "@type": "Product",
-        "name": "shortlistd.io AI Recruitment Platform"
-      }
-    },
-    {
       "@type": "ItemList",
       "name": "Contact Methods",
       "description": "Ways to get in touch with shortlistd.io",
