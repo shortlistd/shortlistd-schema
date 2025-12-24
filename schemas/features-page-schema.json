@@ -41,8 +41,6 @@
       "offers": {
         "@type": "AggregateOffer",
         "priceCurrency": "USD",
-        "lowPrice": "Contact for pricing",
-        "highPrice": "Contact for pricing",
         "offerCount": "2",
         "offers": [
           {
