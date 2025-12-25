@@ -1,3 +1,4 @@
+<script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@graph": [
@@ -11,7 +12,7 @@
         "@type": "ImageObject",
         "url": "https://www.shortlistd.io/logo.svg"
       },
-      "description": "AI-powered recruitment platform that uses autonomous agents for sourcing, screening, and conducting voice interviews across 200M+ candidate profiles",
+      "description": "AI-powered recruitment platform that uses autonomous agents for sourcing, screening, and conducting structured AI-led voice interviews across large-scale global talent pools.",
       "slogan": "Autonomous AI Recruitment Software That Hires for You",
       "foundingDate": "2023",
       "founder": [
@@ -44,38 +45,43 @@
       "contactPoint": {
         "@type": "ContactPoint",
         "contactType": "Sales",
-        "url": "https://www.shortlistd.io/contact"
+        "url": "https://www.shortlistd.io/contact",
+        "email": "info@shortlistd.io"
       },
       "sameAs": [
         "https://www.linkedin.com/company/shortlistd-io",
         "https://x.com/shortlistdio",
         "https://www.youtube.com/@shortlistdio",
-        "https://www.trustpilot.com/review/shortlistd.io"
+        "https://www.trustpilot.com/review/shortlistd.io",
+        "https://github.com/shortlistd"
       ],
       "areaServed": "Worldwide",
       "knowsAbout": [
-        "AI Recruitment",
         "Autonomous Hiring",
+        "AI Recruitment",
+        "AI Hiring Agents",
+        "AI Voice Interviews",
+        "Volume Hiring Automation",
+        "Skills-Based Hiring",
         "Candidate Sourcing",
-        "AI Interviews",
-        "Recruitment Technology",
-        "Talent Acquisition"
+        "Recruitment Technology"
       ]
     },
+
     {
       "@type": "SoftwareApplication",
       "@id": "https://www.shortlistd.io/#software",
       "name": "shortlistd.io",
       "applicationCategory": "BusinessApplication",
-      "applicationSubCategory": "Recruitment Software",
+      "applicationSubCategory": "AI Recruitment Software",
       "operatingSystem": "Web-based",
       "url": "https://www.shortlistd.io",
-      "description": "Autonomous AI recruitment platform that automates sourcing, screening, and first-round interviews. Access 800M+ candidate profiles with AI-powered matching, voice interviews, and skills-based assessments.",
+      "description": "Autonomous AI recruitment software that sources candidates using semantic search, conducts structured AI-led voice interviews, and delivers decision-ready shortlists without manual CV screening or recruiter bottlenecks.",
       "offers": [
         {
           "@type": "Offer",
           "name": "Service-Based Pricing",
-          "description": "Managed sourcing & screening service with success-based fee structure",
+          "description": "Managed autonomous sourcing and screening with outcome-based pricing",
           "priceCurrency": "USD",
           "priceValidUntil": "2025-12-31",
           "availability": "https://schema.org/InStock",
@@ -84,7 +90,7 @@
         {
           "@type": "Offer",
           "name": "Platform-Based Pricing",
-          "description": "Full autonomous AI agent access with flexible licensing",
+          "description": "Direct access to autonomous AI hiring agents with flexible licensing",
           "priceCurrency": "USD",
           "priceValidUntil": "2025-12-31",
           "availability": "https://schema.org/InStock",
@@ -92,17 +98,35 @@
         }
       ],
       "featureList": [
-        "AI-Powered Candidate Interviewing",
-        "End-to-End Autonomous Hiring",
-        "Smart Resume Screening",
-        "Customizable AI Interview Workflows",
-        "Intelligent Skills Assessment",
-        "Source 800M+ Profiles on Autopilot",
-        "Automated job-candidate matching",
-        "AI-driven voice interviews",
-        "Skills-based hiring",
-        "Semantic candidate sourcing",
+        "Autonomous candidate sourcing",
+        "Semantic talent search across large-scale global datasets",
+        "AI-led structured voice interviews with adaptive follow-up questions",
+        "Skills-based candidate evaluation",
+        "Decision-ready shortlists",
+        "Volume hiring automation for retail, BPO, hospitality, logistics, and call centers",
         "ATS integrations"
+      ],
+      "hasPart": [
+        {
+          "@type": "CreativeWork",
+          "name": "Autonomous Hiring Agents",
+          "url": "https://github.com/shortlistd/autonomous-hiring-agents"
+        },
+        {
+          "@type": "CreativeWork",
+          "name": "AI Interview Evaluation",
+          "url": "https://github.com/shortlistd/ai-interview-evaluation"
+        },
+        {
+          "@type": "CreativeWork",
+          "name": "AI Recruitment Pipeline",
+          "url": "https://github.com/shortlistd/ai-recruitment-pipeline"
+        },
+        {
+          "@type": "CreativeWork",
+          "name": "AI Hiring Sources",
+          "url": "https://github.com/shortlistd/ai-hiring-sources"
+        }
       ],
       "screenshot": "https://www.shortlistd.io/dashboard-screenshot.png",
       "softwareVersion": "1.0",
@@ -114,73 +138,6 @@
         "bestRating": "5",
         "worstRating": "1"
       },
-      "review": [
-        {
-          "@type": "Review",
-          "author": {
-            "@type": "Person",
-            "name": "Annie"
-          },
-          "reviewRating": {
-            "@type": "Rating",
-            "ratingValue": "5",
-            "bestRating": "5"
-          },
-          "reviewBody": "When we needed to hire quickly, shortlistd.io's AI-powered hiring workflow went above and beyond. The platform delivered high-quality candidates with impressive speed, allowing us to focus on strategic hiring instead of manual screening."
-        },
-        {
-          "@type": "Review",
-          "author": {
-            "@type": "Person",
-            "name": "Emmanuel"
-          },
-          "reviewRating": {
-            "@type": "Rating",
-            "ratingValue": "5",
-            "bestRating": "5"
-          },
-          "reviewBody": "shortlistd.io has transformed our tech hiring process using autonomous AI sourcing and screening. The platform is easy to use and consistently delivers top-tier candidates that align perfectly with our requirements."
-        },
-        {
-          "@type": "Review",
-          "author": {
-            "@type": "Person",
-            "name": "Haris"
-          },
-          "reviewRating": {
-            "@type": "Rating",
-            "ratingValue": "5",
-            "bestRating": "5"
-          },
-          "reviewBody": "shortlistd.io operates on a completely different level. Their AI-driven recruitment process and communication are exceptional, and the quality of candidates coming through AI interviews is far above average."
-        },
-        {
-          "@type": "Review",
-          "author": {
-            "@type": "Person",
-            "name": "Alex"
-          },
-          "reviewRating": {
-            "@type": "Rating",
-            "ratingValue": "5",
-            "bestRating": "5"
-          },
-          "reviewBody": "shortlistd.io's AI recruitment platform delivered excellent candidates and made hiring effortless. We've made multiple offers — the AI matching and screening have been a game-changer for CTOs hiring top technical talent."
-        },
-        {
-          "@type": "Review",
-          "author": {
-            "@type": "Person",
-            "name": "Jonathan"
-          },
-          "reviewRating": {
-            "@type": "Rating",
-            "ratingValue": "5",
-            "bestRating": "5"
-          },
-          "reviewBody": "shortlistd.io matched us with high-quality technical specialists within days. We hired in under two weeks — the AI-driven candidate matching was spot-on and removed a huge amount of hiring friction."
-        }
-      ],
       "creator": {
         "@id": "https://www.shortlistd.io/#organization"
       },
@@ -188,192 +145,22 @@
         "@id": "https://www.shortlistd.io/#organization"
       }
     },
-    {
-      "@type": "WebSite",
-      "@id": "https://www.shortlistd.io/#website",
-      "url": "https://www.shortlistd.io",
-      "name": "shortlistd.io",
-      "description": "Autonomous AI Recruitment Software That Hires for You",
-      "publisher": {
-        "@id": "https://www.shortlistd.io/#organization"
-      },
-      "potentialAction": {
-        "@type": "SearchAction",
-        "target": {
-          "@type": "EntryPoint",
-          "urlTemplate": "https://www.shortlistd.io/search?q={search_term_string}"
-        },
-        "query-input": "required name=search_term_string"
-      }
-    },
-    {
-      "@type": "FAQPage",
-      "@id": "https://www.shortlistd.io/#faq",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "What is AI recruitment software?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "AI recruitment software uses AI agents to perform hiring tasks automatically, including job intake, candidate sourcing, voice interviews, and shortlisting — without manual involvement."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How does AI sourcing work without keyword matching?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "shortlistd.io uses semantic search to identify candidates across 800M+ profiles, matching based on experience and skill adjacency rather than rigid keyword filters."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Can AI augment recruiters?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes. shortlistd.io is designed to augment recruiters by autonomously sourcing candidates, conducting first-round interviews, and delivering decision-ready shortlists — without placement fees."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How do AI voice interviews work in recruitment?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "shortlistd.io uses an AI voice interview agent that conducts structured, role-specific interviews, asks adaptive follow-up questions, and evaluates responses consistently across all candidates."
-          }
-        }
-      ]
-    },
-    {
-      "@type": "BreadcrumbList",
-      "@id": "https://www.shortlistd.io/#breadcrumb",
-      "itemListElement": [
-        {
-          "@type": "ListItem",
-          "position": 1,
-          "name": "Home",
-          "item": "https://www.shortlistd.io"
-        },
-        {
-          "@type": "ListItem",
-          "position": 2,
-          "name": "Features",
-          "item": "https://www.shortlistd.io/features"
-        },
-        {
-          "@type": "ListItem",
-          "position": 3,
-          "name": "Pricing",
-          "item": "https://www.shortlistd.io/pricing"
-        },
-        {
-          "@type": "ListItem",
-          "position": 4,
-          "name": "Blog",
-          "item": "https://www.shortlistd.io/blog"
-        },
-        {
-          "@type": "ListItem",
-          "position": 5,
-          "name": "About",
-          "item": "https://www.shortlistd.io/about"
-        }
-      ]
-    },
+
     {
       "@type": "Service",
       "@id": "https://www.shortlistd.io/#service",
-      "serviceType": "AI Recruitment Platform",
+      "serviceType": "Autonomous AI Recruitment Platform",
       "name": "Autonomous AI Recruitment Services",
-      "description": "End-to-end AI-powered recruitment solution offering autonomous candidate sourcing, screening, and voice interviews",
+      "description": "End-to-end autonomous hiring using AI agents for sourcing, structured voice interviews, and shortlist delivery at scale.",
       "provider": {
         "@id": "https://www.shortlistd.io/#organization"
       },
-      "areaServed": {
-        "@type": "Country",
-        "name": "Worldwide"
-      },
-      "hasOfferCatalog": {
-        "@type": "OfferCatalog",
-        "name": "Recruitment Services",
-        "itemListElement": [
-          {
-            "@type": "Offer",
-            "itemOffered": {
-              "@type": "Service",
-              "name": "AI-Powered Candidate Interviewing",
-              "description": "Automate first-round interviews using AI-led voice interviews that adapt to each role and candidate"
-            }
-          },
-          {
-            "@type": "Offer",
-            "itemOffered": {
-              "@type": "Service",
-              "name": "End-to-End Autonomous Hiring",
-              "description": "From role intake to shortlisted candidates with coordinated AI agents managing the entire recruitment workflow"
-            }
-          },
-          {
-            "@type": "Offer",
-            "itemOffered": {
-              "@type": "Service",
-              "name": "Smart Resume Screening",
-              "description": "Automated resume screening with AI-driven assessment based on skills and experience"
-            }
-          },
-          {
-            "@type": "Offer",
-            "itemOffered": {
-              "@type": "Service",
-              "name": "Candidate Sourcing",
-              "description": "Access to 800M+ professional profiles with semantic AI sourcing"
-            }
-          }
-        ]
+      "areaServed": "Worldwide",
+      "audience": {
+        "@type": "Audience",
+        "audienceType": "Companies hiring at scale or replacing manual recruitment workflows"
       }
-    },
-    {
-      "@type": "VideoObject",
-      "@id": "https://www.shortlistd.io/#teaservideo",
-      "name": "shortlistd.io Platform Teaser - AI Recruitment in Action",
-      "description": "See shortlistd.io's AI recruitment platform in action. Watch how autonomous agents source, screen, and interview candidates automatically.",
-      "thumbnailUrl": "https://framerusercontent.com/images/kI84JyEzkeQO3n0sWE5cXUxtiA.png",
-      "contentUrl": "https://framerusercontent.com/assets/YhuzT6x2Bj9mNPqQFFXM9aDF2w.mp4",
-      "uploadDate": "2024-01-01",
-      "duration": "PT1M",
-      "publisher": {
-        "@id": "https://www.shortlistd.io/#organization"
-      }
-    },
-    {
-      "@type": "VideoObject",
-      "@id": "https://www.shortlistd.io/#companyvideo",
-      "name": "How Two Experts Saw the Future of Recruitment Coming - shortlistd.io Founders Story",
-      "description": "The story of how Adil Gwiazdowski and Yatin Vij came together to build shortlistd.io, transforming recruitment with AI agents",
-      "thumbnailUrl": "https://framerusercontent.com/images/TtSesE1tU8lbuIRkaoq0aWUWSE.jpg",
-      "uploadDate": "2024-08-01",
-      "contentUrl": "https://www.youtube.com/watch?v=ADsqXFZVp6Q",
-      "embedUrl": "https://www.youtube.com/embed/ADsqXFZVp6Q",
-      "duration": "PT5M",
-      "publisher": {
-        "@id": "https://www.shortlistd.io/#organization"
-      }
-    },
-    {
-      "@type": "ImageObject",
-      "@id": "https://www.shortlistd.io/#platformscreenshot",
-      "caption": "shortlistd.io recruitment dashboard showing Product Designer candidates with profiles and hiring pipeline management tools",
-      "url": "https://framerusercontent.com/images/iyi8buTWe2BRntCvVxzhEjrusu4.png",
-      "width": "2048",
-      "height": "1452"
-    },
-    {
-      "@type": "ImageObject",
-      "@id": "https://www.shortlistd.io/#hero-image",
-      "caption": "AI recruitment agents workflow demonstration",
-      "url": "https://framerusercontent.com/images/kI84JyEzkeQO3n0sWE5cXUxtiA.png",
-      "width": "2079",
-      "height": "1539"
     }
   ]
 }
+</script>
