@@ -5,8 +5,8 @@
       "@type": "WebPage",
       "@id": "https://www.shortlistd.io/features#webpage",
       "url": "https://www.shortlistd.io/features",
-      "name": "Features - AI Recruitment Platform | shortlistd.io",
-      "description": "Discover shortlistd.io's autonomous AI recruitment features: voice interviews, candidate sourcing, smart screening, and end-to-end hiring automation.",
+      "name": "Features - Autonomous AI Recruitment Platform | shortlistd.io",
+      "description": "Explore shortlistd.io’s autonomous AI recruitment features including candidate sourcing, AI-led voice interviews, skills-based screening, and decision-ready shortlists.",
       "isPartOf": {
         "@id": "https://www.shortlistd.io/#website"
       },
@@ -34,7 +34,7 @@
     },
     {
       "@type": "SoftwareApplication",
-      "name": "shortlistd.io AI Recruitment Platform",
+      "name": "shortlistd.io Autonomous AI Recruitment Platform",
       "applicationCategory": "BusinessApplication",
       "applicationSubCategory": "Recruitment Software",
       "operatingSystem": "Web-based",
@@ -46,73 +46,64 @@
           {
             "@type": "Offer",
             "name": "Service-Based Model",
-            "description": "Managed recruitment service"
+            "description": "Managed autonomous hiring service"
           },
           {
             "@type": "Offer",
             "name": "Platform-Based Model",
-            "description": "Self-service AI recruitment platform"
+            "description": "Self-service autonomous AI recruitment platform"
           }
         ]
       },
       "featureList": [
-        "AI-Powered Candidate Interviewing - Automate first-round interviews using AI-led voice interviews",
-        "End-to-End Autonomous Hiring - Coordinated AI agents manage entire recruitment workflow",
-        "Smart Resume Screening - Automated screening with AI-driven evaluation",
-        "Customizable AI Interview Workflows - Design workflows tailored to roles and seniority",
-        "Intelligent Skills Assessment - Evaluate based on skills and experience, not keywords",
-        "Source 800M+ Profiles on Autopilot - Semantic AI sourcing across global talent pools",
-        "Automated Job-Candidate Matching - AI-driven evaluation and matching",
-        "Skills-Based Hiring - True skills assessment without keyword matching",
-        "ATS Integrations - Connect with existing hiring tools"
+        "Autonomous AI hiring agents that execute recruitment end-to-end",
+        "AI-led voice interviews with structured, role-specific questioning",
+        "Skills-based screening without CV keyword matching",
+        "Semantic candidate sourcing across global talent pools",
+        "Decision-ready shortlists delivered without recruiters",
+        "Parallel hiring at scale for volume roles",
+        "ATS integrations for downstream hiring workflows"
       ]
     },
     {
       "@type": "ItemList",
       "name": "AI Recruitment Features",
-      "description": "Comprehensive list of shortlistd.io platform features",
+      "description": "Core features of the shortlistd.io autonomous hiring platform",
       "itemListElement": [
         {
           "@type": "SoftwareFeature",
           "position": 1,
-          "name": "AI-Powered Candidate Interviewing",
-          "description": "Automate first-round interviews using AI-led voice interviews that adapt to each role and candidate. Conducts structured, consistent interviews at scale while maintaining bias-reduced evaluation.",
+          "name": "Autonomous Hiring Agents",
+          "description": "AI agents execute sourcing, screening, interviewing, and shortlisting with minimal human intervention.",
           "featureType": "Core Feature"
         },
         {
           "@type": "SoftwareFeature",
           "position": 2,
-          "name": "End-to-End Autonomous Hiring",
-          "description": "From role intake to shortlisted candidates, AI agents autonomously manage the entire recruitment workflow, delivering interview-ready candidates faster and at scale.",
+          "name": "AI-Led Voice Interviews",
+          "description": "Conversational AI conducts structured first-round interviews using voice, with adaptive follow-up questions based on candidate responses.",
           "featureType": "Core Feature"
         },
         {
           "@type": "SoftwareFeature",
           "position": 3,
-          "name": "Smart Resume Screening",
-          "description": "Automated screening with AI-driven evaluation that processes high volumes while maintaining quality and consistency.",
-          "featureType": "Core Feature"
-        },
-        {
-          "@type": "SoftwareFeature",
-          "position": 4,
-          "name": "Customizable AI Interview Workflows",
-          "description": "Design interview workflows tailored to your roles, seniority levels, and hiring criteria. Define screening logic once and let AI run interviews consistently.",
-          "featureType": "Customization"
-        },
-        {
-          "@type": "SoftwareFeature",
-          "position": 5,
-          "name": "Intelligent Skills Assessment",
-          "description": "Evaluate candidates based on skills, experience, and role relevance using AI-driven assessment rather than CV keyword matching.",
+          "name": "Skills-Based Screening",
+          "description": "Candidates are evaluated on skills, experience, and role relevance rather than CV formatting or keyword density.",
           "featureType": "Assessment"
         },
         {
           "@type": "SoftwareFeature",
-          "position": 6,
-          "name": "Source 800M+ Profiles on Autopilot",
-          "description": "Automatically source candidates from a global database of 800+ million professional profiles using semantic search rather than rigid keyword filters.",
+          "position": 4,
+          "name": "Semantic Candidate Sourcing",
+          "description": "AI sources candidates from a global talent database using semantic search instead of Boolean filters.",
           "featureType": "Sourcing"
+        },
+        {
+          "@type": "SoftwareFeature",
+          "position": 5,
+          "name": "Decision-Ready Shortlists",
+          "description": "Ranked, interview-ready shortlists delivered directly to hiring teams for final decision-making.",
+          "featureType": "Output"
         }
       ]
     },
@@ -123,69 +114,102 @@
         {
           "@type": "ListItem",
           "position": 1,
-          "name": "Automated job-candidate matching using AI-driven evaluation"
+          "name": "Eliminate manual sourcing, CV screening, and first-round interviews"
         },
         {
           "@type": "ListItem",
           "position": 2,
-          "name": "Reduce time spent screening candidates by automating interviews"
+          "name": "Scale hiring without increasing recruiter headcount"
         },
         {
           "@type": "ListItem",
           "position": 3,
-          "name": "Improve hiring accuracy with skills-based, AI-driven hiring decisions"
+          "name": "Enable consistent, bias-reduced candidate evaluation"
         },
         {
           "@type": "ListItem",
           "position": 4,
-          "name": "Scale recruitment without scaling headcount"
+          "name": "Support high-volume and parallel hiring workflows"
         },
         {
           "@type": "ListItem",
           "position": 5,
-          "name": "Access global talent pools of 800M+ candidates"
-        },
-        {
-          "@type": "ListItem",
-          "position": 6,
-          "name": "Consistent, bias-reduced evaluation across all candidates"
+          "name": "Deliver faster hiring outcomes with autonomous execution"
         }
       ]
     },
     {
       "@type": "HowTo",
-      "name": "How shortlistd.io AI Recruitment Works",
-      "description": "Step-by-step process of autonomous AI recruitment",
+      "name": "How Autonomous Hiring Works",
+      "description": "The autonomous hiring workflow executed by shortlistd.io AI agents",
       "step": [
         {
           "@type": "HowToStep",
           "position": 1,
-          "name": "Role Intake",
-          "text": "Submit your hiring requirements and job specifications"
+          "name": "Role Intake and Skill Modeling",
+          "text": "Hiring requirements are converted into structured skill and role profiles."
         },
         {
           "@type": "HowToStep",
           "position": 2,
-          "name": "AI Sourcing",
-          "text": "AI agents automatically source candidates from 800M+ profiles using semantic matching"
+          "name": "Autonomous Candidate Sourcing",
+          "text": "AI agents source candidates using semantic matching across global talent pools."
         },
         {
           "@type": "HowToStep",
           "position": 3,
-          "name": "Smart Screening",
-          "text": "AI evaluates candidates based on skills, experience, and role relevance"
+          "name": "Skills-Based Screening",
+          "text": "Candidates are evaluated against role-specific criteria instead of CV keywords."
         },
         {
           "@type": "HowToStep",
           "position": 4,
           "name": "AI Voice Interviews",
-          "text": "Automated first-round interviews conducted by AI with adaptive questions"
+          "text": "Conversational AI conducts structured first-round interviews with voice capability."
         },
         {
           "@type": "HowToStep",
           "position": 5,
           "name": "Shortlist Delivery",
-          "text": "Receive interview-ready, qualified candidates for final evaluation"
+          "text": "Decision-ready shortlists are delivered to hiring teams for final review."
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.shortlistd.io/features#autonomous-hiring-faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How is autonomous hiring different from an ATS?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Autonomous hiring platforms like shortlistd execute recruitment tasks such as sourcing, screening, interviewing, and shortlisting. ATS platforms primarily track applicants and manage workflows without performing hiring work."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How does shortlistd compare to recruitment agencies?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "shortlistd replaces manual recruiter workflows with AI agents that operate in parallel, reduce cost, and deliver faster, more consistent outcomes than traditional recruitment agencies."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does shortlistd conduct interviews?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. shortlistd conducts structured first-round interviews using conversational AI with voice capability and adaptive questioning."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is shortlistd suitable for volume hiring?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. shortlistd is designed for high-volume and parallel hiring use cases such as retail, hospitality, BPO, and call centers."
+          }
         }
       ]
     }
