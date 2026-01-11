@@ -1,127 +1,54 @@
-/**
- * BLOG SCHEMA BUILDER - GitHub Hosted File
- * 
- * File location: /blog-schema.js
- * GitHub repo: shortlistd/shortlistd-schema
- * CDN URL: 'https://cdn.jsdelivr.net/gh/shortlistd/shortlistd-schema@main/schemas/best-ai-recruitment-tools-2026.json'
- * 
- * This file reads CMS data from window.blogData and builds comprehensive schema markup
- * Last updated: 2026-01-11
- */
-
-(function() {
-  'use strict';
-  
-  // Get CMS data passed from Framer
-  const data = window.blogData;
-  if (!data) {
-    console.error('❌ No blog data found');
-    return;
-  }
-  
-  // Expand abbreviated variable names
-  const title = data.t;
-  const description = data.d;
-  const slug = data.s;
-  const imageUrl = data.i;
-  const publishDate = data.p;
-  const modifiedDate = data.m;
-  const baseUrl = data.u;
-  
-  // Build full URLs
-  const articleUrl = `${baseUrl}/blog/${slug}`;
-  const fullImageUrl = imageUrl.startsWith('http') ? imageUrl : `${baseUrl}${imageUrl}`;
-  
-  // Base schema for ALL blog posts
-  const schemaData = {
-    "@context": "https://schema.org",
-    "@graph": [
-      {
-        "@type": "Article",
-        "@id": `${articleUrl}#article`,
-        "headline": title,
-        "description": description,
-        "image": {
-          "@type": "ImageObject",
-          "url": fullImageUrl,
-          "width": 1200,
-          "height": 630
-        },
-        "author": {
-          "@type": "Person",
-          "@id": `${baseUrl}/about#adil`,
-          "name": "Adil Gwiazdowski",
-          "url": `${baseUrl}/about`,
-          "jobTitle": "CEO & Co-founder",
-          "worksFor": {
-            "@id": `${baseUrl}#organization`
-          }
-        },
-        "publisher": {
-          "@id": `${baseUrl}#organization`
-        },
-        "datePublished": publishDate,
-        "dateModified": modifiedDate,
-        "mainEntityOfPage": {
-          "@type": "WebPage",
-          "@id": articleUrl
-        },
-        "articleSection": "Recruitment Technology",
-        "inLanguage": "en-US"
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "@id": "https://www.shortlistd.io/blog/best-ai-recruitment-tools-2026-complete-comparison-guide#article",
+      "headline": "Best AI Recruitment Tools 2026: Complete Platform Comparison & Buyer's Guide",
+      "alternativeHeadline": "Comprehensive Guide to AI Recruiting Software and Autonomous Hiring Platforms",
+      "description": "Compare the top AI recruitment tools and autonomous hiring platforms of 2026. Expert analysis of features, pricing, and which solution fits your needs best.",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://www.shortlistd.io/images/ai-recruitment-tools-comparison-2026.jpg",
+        "width": 1200,
+        "height": 630
       },
-      {
-        "@type": "BreadcrumbList",
-        "@id": `${articleUrl}#breadcrumb`,
-        "itemListElement": [
-          {
-            "@type": "ListItem",
-            "position": 1,
-            "name": "Home",
-            "item": baseUrl
-          },
-          {
-            "@type": "ListItem",
-            "position": 2,
-            "name": "Blog",
-            "item": `${baseUrl}/blog`
-          },
-          {
-            "@type": "ListItem",
-            "position": 3,
-            "name": title,
-            "item": articleUrl
-          }
-        ]
+      "author": {
+        "@type": "Person",
+        "@id": "https://www.shortlistd.io/about#adil",
+        "name": "Adil Gwiazdowski",
+        "url": "https://www.shortlistd.io/about",
+        "jobTitle": "CEO & Co-founder",
+        "worksFor": {
+          "@id": "https://www.shortlistd.io#organization"
+        }
       },
-      {
-        "@type": "Organization",
-        "@id": `${baseUrl}#organization`,
-        "name": "shortlistd.io",
-        "url": baseUrl,
-        "logo": {
-          "@type": "ImageObject",
-          "url": `${baseUrl}/logo.png`,
-          "width": 600,
-          "height": 60
-        },
-        "description": "Autonomous hiring intelligence platform powered by AI agents",
-        "foundingDate": "2024",
-        "sameAs": [
-          "https://www.linkedin.com/company/shortlistd",
-          "https://twitter.com/shortlistd_io"
-        ]
-      }
-    ]
-  };
-  
-  // Add specific schemas based on article slug
-  // Current slug: best-ai-recruitment-tools-2026-complete-comparison-guide
-  if (slug === "best-ai-recruitment-tools-2026-complete-comparison-guide") {
-    
-    // Add FAQ Schema for this article
-    schemaData["@graph"].push({
+      "publisher": {
+        "@id": "https://www.shortlistd.io#organization"
+      },
+      "datePublished": "2026-01-11T08:00:00+00:00",
+      "dateModified": "2026-01-11T08:00:00+00:00",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://www.shortlistd.io/blog/best-ai-recruitment-tools-2026-complete-comparison-guide"
+      },
+      "keywords": [
+        "AI recruitment tools",
+        "AI recruiting software",
+        "autonomous hiring platforms",
+        "recruitment automation",
+        "AI candidate screening",
+        "AI interview software",
+        "best AI recruiting tools 2026",
+        "recruitment software comparison"
+      ],
+      "articleSection": "Recruitment Technology",
+      "wordCount": 7200,
+      "inLanguage": "en-US"
+    },
+    {
       "@type": "FAQPage",
-      "@id": `${articleUrl}#faq`,
+      "@id": "https://www.shortlistd.io/blog/best-ai-recruitment-tools-2026-complete-comparison-guide#faq",
       "mainEntity": [
         {
           "@type": "Question",
@@ -188,12 +115,34 @@
           }
         }
       ]
-    });
-    
-    // Add Platform Comparison ItemList Schema
-    schemaData["@graph"].push({
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.shortlistd.io/blog/best-ai-recruitment-tools-2026-complete-comparison-guide#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.shortlistd.io"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Blog",
+          "item": "https://www.shortlistd.io/blog"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Best AI Recruitment Tools 2026",
+          "item": "https://www.shortlistd.io/blog/best-ai-recruitment-tools-2026-complete-comparison-guide"
+        }
+      ]
+    },
+    {
       "@type": "ItemList",
-      "@id": `${articleUrl}#platformlist`,
+      "@id": "https://www.shortlistd.io/blog/best-ai-recruitment-tools-2026-complete-comparison-guide#platformlist",
       "name": "Best AI Recruitment Tools 2026 Comparison",
       "description": "Comprehensive comparison of top AI recruiting platforms and autonomous hiring software",
       "numberOfItems": 8,
@@ -207,18 +156,21 @@
             "applicationCategory": "BusinessApplication",
             "applicationSubCategory": "Recruitment Software",
             "description": "Autonomous hiring intelligence platform with end-to-end AI agents for sourcing, screening, and interviewing candidates",
-            "url": baseUrl,
+            "url": "https://www.shortlistd.io",
             "operatingSystem": "Web, Cloud",
             "aggregateRating": {
               "@type": "AggregateRating",
               "ratingValue": "5",
               "bestRating": "5",
-              "worstRating": "1"
+              "worstRating": "1",
+              "ratingCount": "1"
             },
             "offers": {
               "@type": "Offer",
               "price": "Custom",
-              "priceCurrency": "USD"
+              "priceCurrency": "USD",
+              "priceValidUntil": "2026-12-31",
+              "availability": "https://schema.org/InStock"
             }
           }
         },
@@ -230,12 +182,14 @@
             "name": "Workable",
             "applicationCategory": "BusinessApplication",
             "applicationSubCategory": "Applicant Tracking System",
-            "description": "AI-enhanced applicant tracking system with traditional ATS workflows",
+            "description": "AI-enhanced applicant tracking system with traditional ATS workflows and automated features",
             "url": "https://www.workable.com",
+            "operatingSystem": "Web, Cloud",
             "offers": {
               "@type": "Offer",
               "price": "149.00",
-              "priceCurrency": "USD"
+              "priceCurrency": "USD",
+              "priceValidUntil": "2026-12-31"
             }
           }
         },
@@ -248,7 +202,14 @@
             "applicationCategory": "BusinessApplication",
             "applicationSubCategory": "Talent CRM",
             "description": "Talent CRM with AI-powered outreach automation and pipeline management",
-            "url": "https://www.gem.com"
+            "url": "https://www.gem.com",
+            "operatingSystem": "Web, Cloud",
+            "offers": {
+              "@type": "Offer",
+              "price": "Custom",
+              "priceCurrency": "USD",
+              "priceValidUntil": "2026-12-31"
+            }
           }
         },
         {
@@ -259,8 +220,15 @@
             "name": "Paradox",
             "applicationCategory": "BusinessApplication",
             "applicationSubCategory": "Conversational AI",
-            "description": "Conversational AI assistant for candidate screening and engagement",
-            "url": "https://www.paradox.ai"
+            "description": "Conversational AI assistant (Olivia) for candidate screening, engagement, and interview scheduling",
+            "url": "https://www.paradox.ai",
+            "operatingSystem": "Web, Cloud",
+            "offers": {
+              "@type": "Offer",
+              "price": "Custom",
+              "priceCurrency": "USD",
+              "priceValidUntil": "2026-12-31"
+            }
           }
         },
         {
@@ -271,8 +239,15 @@
             "name": "SeekOut",
             "applicationCategory": "BusinessApplication",
             "applicationSubCategory": "Talent Sourcing",
-            "description": "Talent discovery and diversity insights platform with advanced sourcing",
-            "url": "https://www.seekout.com"
+            "description": "Talent discovery and diversity insights platform with advanced sourcing capabilities",
+            "url": "https://www.seekout.com",
+            "operatingSystem": "Web, Cloud",
+            "offers": {
+              "@type": "Offer",
+              "price": "10000.00",
+              "priceCurrency": "USD",
+              "priceValidUntil": "2026-12-31"
+            }
           }
         },
         {
@@ -283,8 +258,15 @@
             "name": "Alex",
             "applicationCategory": "BusinessApplication",
             "applicationSubCategory": "AI Interview Platform",
-            "description": "Autonomous AI phone interviewing platform for automated screening",
-            "url": "https://www.alex.com"
+            "description": "Autonomous AI phone interviewing platform for automated candidate screening",
+            "url": "https://www.alex.com",
+            "operatingSystem": "Web, Cloud",
+            "offers": {
+              "@type": "Offer",
+              "price": "Custom",
+              "priceCurrency": "USD",
+              "priceValidUntil": "2026-12-31"
+            }
           }
         },
         {
@@ -295,8 +277,15 @@
             "name": "Eightfold AI",
             "applicationCategory": "BusinessApplication",
             "applicationSubCategory": "Talent Intelligence",
-            "description": "Enterprise talent intelligence platform with AI-powered hiring and retention",
-            "url": "https://www.eightfold.ai"
+            "description": "Enterprise talent intelligence platform with AI-powered hiring, development, and retention",
+            "url": "https://www.eightfold.ai",
+            "operatingSystem": "Web, Cloud",
+            "offers": {
+              "@type": "Offer",
+              "price": "100000.00",
+              "priceCurrency": "USD",
+              "priceValidUntil": "2026-12-31"
+            }
           }
         },
         {
@@ -307,35 +296,59 @@
             "name": "HireVue",
             "applicationCategory": "BusinessApplication",
             "applicationSubCategory": "Video Interview Platform",
-            "description": "Video interview assessments at scale with structured evaluation",
-            "url": "https://www.hirevue.com"
+            "description": "Video interview assessments at scale with structured evaluation framework",
+            "url": "https://www.hirevue.com",
+            "operatingSystem": "Web, Cloud",
+            "offers": {
+              "@type": "Offer",
+              "price": "Custom",
+              "priceCurrency": "USD",
+              "priceValidUntil": "2026-12-31"
+            }
           }
         }
       ]
-    });
-  }
-  
-  // Example: Add FAQ schema to more articles
-  // if (slug === "will-ai-replace-recruiters-the-definitive-answer-2025") {
-  //   schemaData["@graph"].push({
-  //     "@type": "FAQPage",
-  //     // ... FAQ content
-  //   });
-  // }
-  
-  // Add more conditional schemas for other articles
-  // Example: Add HowTo schema for guide articles
-  if (slug.includes('guide') || slug.includes('how-to')) {
-    // You can add HowTo schema here in the future
-  }
-  
-  // Inject schema into page
-  const script = document.createElement('script');
-  script.type = 'application/ld+json';
-  script.text = JSON.stringify(schemaData);
-  document.head.appendChild(script);
-  
-  console.log('✅ Schema injected for:', slug);
-  console.log('📊 Schema types:', schemaData['@graph'].map(s => s['@type']).join(', '));
-  
-})();
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://www.shortlistd.io#organization",
+      "name": "shortlistd.io",
+      "url": "https://www.shortlistd.io",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.shortlistd.io/logo.png",
+        "width": 600,
+        "height": 60
+      },
+      "description": "Autonomous hiring intelligence platform powered by AI agents for end-to-end recruitment automation",
+      "foundingDate": "2024",
+      "founders": [
+        {
+          "@type": "Person",
+          "name": "Adil Gwiazdowski",
+          "jobTitle": "CEO & Co-founder"
+        },
+        {
+          "@type": "Person",
+          "name": "Yatin Vij",
+          "jobTitle": "CTO & Co-founder"
+        }
+      ],
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "AE",
+        "addressLocality": "Dubai"
+      },
+      "sameAs": [
+        "https://www.linkedin.com/company/shortlistd",
+        "https://twitter.com/shortlistd_io"
+      ],
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "contactType": "Customer Support",
+        "email": "hello@shortlistd.io",
+        "availableLanguage": ["English"]
+      }
+    }
+  ]
+}
