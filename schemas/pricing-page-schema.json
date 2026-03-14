@@ -81,20 +81,18 @@
       }
     },
     {
-      "@type": "Service",
-      "@id": "https://www.shortlistd.io/pricing#service-rating",
-      "name": "shortlistd.io Autonomous AI Recruitment Service",
-      "url": "https://www.shortlistd.io/pricing",
-      "provider": {
-        "@id": "https://www.shortlistd.io#organization"
-      },
-      "aggregateRating": {
-        "@type": "AggregateRating",
-        "ratingValue": "4.4",
-        "reviewCount": "80",
-        "bestRating": "5",
-        "worstRating": "1"
-      }
-    }
-  ]
+  "@type": "Product",
+  "@id": "https://www.shortlistd.io/pricing#product-rating",
+  "name": "shortlistd.io Autonomous AI Recruitment Service",
+  "url": "https://www.shortlistd.io/pricing",
+  "brand": {
+    "@id": "https://www.shortlistd.io#organization"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.4",
+    "reviewCount": "80",
+    "bestRating": "5",
+    "worstRating": "1"
+  }
 }
