@@ -6,9 +6,9 @@
       "@id": "https://www.shortlistd.io/blog#webpage",
       "url": "https://www.shortlistd.io/blog",
       "name": "AI Recruitment Blog | Agentic AI for hiring | shortlistd.io",
-      "description": "Insights on AI recruitment, agentic hiring, and autonomous talent acquisition. Expert analysis on voice AI interviews, semantic search, and the future of hiring from shortlistd.io",
+      "description": "Insights on AI recruitment, agentic hiring, and autonomous talent acquisition. Expert analysis on voice AI interviews, semantic search, and the future of hiring from shortlistd.io.",
       "isPartOf": {
-        "@id": "https://www.shortlistd.io/#website"
+        "@id": "https://www.shortlistd.io#website"
       },
       "breadcrumb": {
         "@id": "https://www.shortlistd.io/blog#breadcrumb"
@@ -16,9 +16,9 @@
       "about": {
         "@type": "Blog",
         "name": "The AI Recruitment Blog: Insights on Agentic Hiring",
-        "description": "Expert insights on AI-powered recruitment, autonomous hiring, and the future of talent acquisition",
+        "description": "Expert insights on AI-powered recruitment, autonomous hiring, and the future of talent acquisition.",
         "publisher": {
-          "@id": "https://www.shortlistd.io/#organization"
+          "@id": "https://www.shortlistd.io#organization"
         },
         "author": {
           "@id": "https://www.shortlistd.io/blog#adil"
@@ -51,10 +51,11 @@
       "familyName": "Gwiazdowski",
       "jobTitle": "Co-founder & CEO",
       "description": "Co-founder & CEO of shortlistd.io with 20+ years in recruitment. Expert in AI-powered hiring, autonomous recruitment agents, and the future of talent acquisition.",
-      "url": "https://ae.linkedin.com/in/adilgwiazdowski",
+      "url": "https://www.linkedin.com/in/adilgwiazdowski/",
       "sameAs": [
-        "https://ae.linkedin.com/in/adilgwiazdowski",
-        "https://adilgwiazdowski.bio.link/"
+        "https://www.linkedin.com/in/adilgwiazdowski/",
+        "https://x.com/AdilGwiazdowski",
+        "https://github.com/AdilGwiazdowski"
       ],
       "image": {
         "@type": "ImageObject",
@@ -65,9 +66,7 @@
         "name": "Columbia University"
       },
       "worksFor": {
-        "@type": "Organization",
-        "name": "Shortlistd",
-        "url": "https://www.shortlistd.io"
+        "@id": "https://www.shortlistd.io#organization"
       },
       "knowsAbout": [
         "AI Recruitment",
@@ -82,7 +81,7 @@
     {
       "@type": "ItemList",
       "name": "AI Recruitment Blog Posts",
-      "description": "Latest articles on AI recruitment, autonomous hiring, and talent acquisition technology",
+      "description": "Latest articles on AI recruitment, autonomous hiring, and talent acquisition technology.",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -92,12 +91,8 @@
             "headline": "Why Your Best Candidates Choose AI Interviews [Research 2025]",
             "url": "https://www.shortlistd.io/blog/why-your-best-candidates-choose-ai-interviews-research-2025",
             "datePublished": "2025-12-14",
-            "author": {
-              "@id": "https://www.shortlistd.io/blog#adil"
-            },
-            "publisher": {
-              "@id": "https://www.shortlistd.io/#organization"
-            },
+            "author": { "@id": "https://www.shortlistd.io/blog#adil" },
+            "publisher": { "@id": "https://www.shortlistd.io#organization" },
             "image": {
               "@type": "ImageObject",
               "url": "https://framerusercontent.com/images/h7p2okFIaRUEpjktoIUMPP1NQM.jpg"
@@ -113,12 +108,8 @@
             "headline": "5 CPOs on AI Interviews: What HR Leaders Really Think",
             "url": "https://www.shortlistd.io/blog/what-5-chief-people-officers-really-think-about-ai-interviews-honest-feedback-from-senior-hr-leaders",
             "datePublished": "2025-12-20",
-            "author": {
-              "@id": "https://www.shortlistd.io/blog#adil"
-            },
-            "publisher": {
-              "@id": "https://www.shortlistd.io/#organization"
-            },
+            "author": { "@id": "https://www.shortlistd.io/blog#adil" },
+            "publisher": { "@id": "https://www.shortlistd.io#organization" },
             "image": {
               "@type": "ImageObject",
               "url": "https://framerusercontent.com/images/JrO5lgm9G7MTmbzBt13ATW5s7gk.jpg"
@@ -134,12 +125,8 @@
             "headline": "The Radio Interview That Made Us Defend AI Hiring With Data",
             "url": "https://www.shortlistd.io/blog/the-radio-interview-that-made-us-defend-ai-hiring-with-data-(not-marketing-fluff)",
             "datePublished": "2025-12-07",
-            "author": {
-              "@id": "https://www.shortlistd.io/blog#adil"
-            },
-            "publisher": {
-              "@id": "https://www.shortlistd.io/#organization"
-            },
+            "author": { "@id": "https://www.shortlistd.io/blog#adil" },
+            "publisher": { "@id": "https://www.shortlistd.io#organization" },
             "image": {
               "@type": "ImageObject",
               "url": "https://framerusercontent.com/images/QNNIqxEVLLKj3Q1otQ7XFujR84.jpg"
@@ -155,12 +142,8 @@
             "headline": "When AI Makes Everyone Look Good: The Hiring Crisis",
             "url": "https://www.shortlistd.io/blog/when-ai-makes-everyone-look-good-the-hiring-crisis-shortlistd-io",
             "datePublished": "2025-11-29",
-            "author": {
-              "@id": "https://www.shortlistd.io/blog#adil"
-            },
-            "publisher": {
-              "@id": "https://www.shortlistd.io/#organization"
-            },
+            "author": { "@id": "https://www.shortlistd.io/blog#adil" },
+            "publisher": { "@id": "https://www.shortlistd.io#organization" },
             "image": {
               "@type": "ImageObject",
               "url": "https://framerusercontent.com/images/TDzzzM1ShJXZPTQpxlFpmuTRa4.jpg"
@@ -176,12 +159,8 @@
             "headline": "How to Prepare for an AI Interview: Expert Tips & Strategies 2025",
             "url": "https://www.shortlistd.io/blog/how-to-prepare-for-ai-interview-complete-guide",
             "datePublished": "2025-11-05",
-            "author": {
-              "@id": "https://www.shortlistd.io/blog#adil"
-            },
-            "publisher": {
-              "@id": "https://www.shortlistd.io/#organization"
-            },
+            "author": { "@id": "https://www.shortlistd.io/blog#adil" },
+            "publisher": { "@id": "https://www.shortlistd.io#organization" },
             "image": {
               "@type": "ImageObject",
               "url": "https://framerusercontent.com/images/ezCbVh6pMFqSCxsMzlTFbO2xDk.jpg"
@@ -197,12 +176,8 @@
             "headline": "AI Voice Interviews Outperform Human Recruiters: 2025 Research",
             "url": "https://www.shortlistd.io/blog/ai-voice-interviews-outperform-human-recruiters-2025-research-analysis",
             "datePublished": "2025-10-29",
-            "author": {
-              "@id": "https://www.shortlistd.io/blog#adil"
-            },
-            "publisher": {
-              "@id": "https://www.shortlistd.io/#organization"
-            },
+            "author": { "@id": "https://www.shortlistd.io/blog#adil" },
+            "publisher": { "@id": "https://www.shortlistd.io#organization" },
             "image": {
               "@type": "ImageObject",
               "url": "https://framerusercontent.com/images/3w9BCpGoql0ZZkmpUbSI6aarU.jpg"
@@ -218,12 +193,8 @@
             "headline": "Will AI Replace Recruiters? The Definitive Answer [2025]",
             "url": "https://www.shortlistd.io/blog/will-ai-replace-recruiters-the-definitive-answer-2025",
             "datePublished": "2025-10-28",
-            "author": {
-              "@id": "https://www.shortlistd.io/blog#adil"
-            },
-            "publisher": {
-              "@id": "https://www.shortlistd.io/#organization"
-            },
+            "author": { "@id": "https://www.shortlistd.io/blog#adil" },
+            "publisher": { "@id": "https://www.shortlistd.io#organization" },
             "image": {
               "@type": "ImageObject",
               "url": "https://framerusercontent.com/images/nKzP09DEFX2oYmhBGS5GgdJkA.jpg"
@@ -239,12 +210,8 @@
             "headline": "What Candidates Really Think About AI Interviews",
             "url": "https://www.shortlistd.io/blog/what-candidates-really-think-about-ai-interviews-70-job-seekers-tell-the-truth-(2025-survey-data)",
             "datePublished": "2025-10-22",
-            "author": {
-              "@id": "https://www.shortlistd.io/blog#adil"
-            },
-            "publisher": {
-              "@id": "https://www.shortlistd.io/#organization"
-            },
+            "author": { "@id": "https://www.shortlistd.io/blog#adil" },
+            "publisher": { "@id": "https://www.shortlistd.io#organization" },
             "image": {
               "@type": "ImageObject",
               "url": "https://framerusercontent.com/images/7hLLdrK0tksSSpF0eH4ZrOhH2E.jpg"
@@ -301,12 +268,12 @@
     },
     {
       "@type": "WebSite",
-      "@id": "https://www.shortlistd.io/#website",
+      "@id": "https://www.shortlistd.io#website",
       "url": "https://www.shortlistd.io",
       "name": "shortlistd.io",
       "description": "Autonomous AI Recruitment Software That Hires for You",
       "publisher": {
-        "@id": "https://www.shortlistd.io/#organization"
+        "@id": "https://www.shortlistd.io#organization"
       },
       "potentialAction": {
         "@type": "SearchAction",
@@ -319,19 +286,17 @@
     },
     {
       "@type": "Organization",
-      "@id": "https://www.shortlistd.io/#organization",
-      "name": "Shortlistd",
-      "legalName": "Shortlistd",
+      "@id": "https://www.shortlistd.io#organization",
+      "name": "shortlistd.io",
+      "legalName": "Shortlistd, Inc.",
       "url": "https://www.shortlistd.io",
       "logo": {
         "@type": "ImageObject",
         "url": "https://www.shortlistd.io/logo.svg"
       },
-      "description": "AI-powered recruitment platform that uses autonomous agents for sourcing, screening, and conducting voice interviews across 200M+ candidate profiles",
+      "description": "Autonomous AI recruitment platform that uses AI agents to source candidates, conduct structured voice interviews, and deliver decision-ready shortlists.",
       "founder": [
-        {
-          "@id": "https://www.shortlistd.io/blog#adil"
-        },
+        { "@id": "https://www.shortlistd.io/blog#adil" },
         {
           "@type": "Person",
           "name": "Yatin Vij",
@@ -341,7 +306,7 @@
       "sameAs": [
         "https://www.linkedin.com/company/shortlistd-io",
         "https://x.com/shortlistdio",
-        "https://www.youtube.com/@shortlistdio",
+        "https://www.youtube.com/@shortlistd",
         "https://www.trustpilot.com/review/shortlistd.io"
       ]
     }
