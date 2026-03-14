@@ -8,7 +8,7 @@
       "name": "Features - Autonomous AI Recruitment Platform | shortlistd.io",
       "description": "Explore shortlistd.io’s autonomous AI recruitment features including candidate sourcing, AI-led voice interviews, skills-based screening, and decision-ready shortlists.",
       "isPartOf": {
-        "@id": "https://www.shortlistd.io/#website"
+        "@id": "https://www.shortlistd.io#website"
       },
       "breadcrumb": {
         "@id": "https://www.shortlistd.io/features#breadcrumb"
@@ -34,10 +34,12 @@
     },
     {
       "@type": "SoftwareApplication",
+      "@id": "https://www.shortlistd.io/features#software",
       "name": "shortlistd.io Autonomous AI Recruitment Platform",
       "applicationCategory": "BusinessApplication",
       "applicationSubCategory": "Recruitment Software",
       "operatingSystem": "Web-based",
+      "url": "https://www.shortlistd.io/features",
       "offers": {
         "@type": "AggregateOffer",
         "priceCurrency": "USD",
@@ -63,10 +65,17 @@
         "Decision-ready shortlists delivered without recruiters",
         "Parallel hiring at scale for volume roles",
         "ATS integrations for downstream hiring workflows"
-      ]
+      ],
+      "creator": {
+        "@id": "https://www.shortlistd.io#organization"
+      },
+      "publisher": {
+        "@id": "https://www.shortlistd.io#organization"
+      }
     },
     {
       "@type": "ItemList",
+      "@id": "https://www.shortlistd.io/features#feature-list",
       "name": "AI Recruitment Features",
       "description": "Core features of the shortlistd.io autonomous hiring platform",
       "itemListElement": [
@@ -109,6 +118,7 @@
     },
     {
       "@type": "ItemList",
+      "@id": "https://www.shortlistd.io/features#benefits",
       "name": "Key Benefits",
       "itemListElement": [
         {
@@ -140,6 +150,7 @@
     },
     {
       "@type": "HowTo",
+      "@id": "https://www.shortlistd.io/features#how-autonomous-hiring-works",
       "name": "How Autonomous Hiring Works",
       "description": "The autonomous hiring workflow executed by shortlistd.io AI agents",
       "step": [
