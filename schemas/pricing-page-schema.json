@@ -8,7 +8,7 @@
       "name": "Pricing – Autonomous AI Recruitment | shortlistd.io",
       "description": "Pricing models for shortlistd.io autonomous AI recruitment services, including platform-based licensing and managed autonomous hiring solutions.",
       "isPartOf": {
-        "@id": "https://www.shortlistd.io/#website"
+        "@id": "https://www.shortlistd.io#website"
       },
       "breadcrumb": {
         "@id": "https://www.shortlistd.io/pricing#breadcrumb"
@@ -34,12 +34,16 @@
     },
     {
       "@type": "Organization",
-      "@id": "https://www.shortlistd.io/#organization",
+      "@id": "https://www.shortlistd.io#organization",
       "name": "shortlistd.io",
       "url": "https://www.shortlistd.io",
-      "logo": "https://www.shortlistd.io/favicon.ico",
+      "logo": "https://www.shortlistd.io/logo.svg",
       "sameAs": [
-        "https://github.com/shortlistd"
+        "https://www.linkedin.com/company/shortlistd-io",
+        "https://x.com/shortlistdio",
+        "https://github.com/shortlistd",
+        "https://www.youtube.com/@shortlistd",
+        "https://www.trustpilot.com/review/shortlistd.io"
       ]
     },
     {
@@ -48,7 +52,7 @@
       "name": "Autonomous AI Recruitment Service",
       "serviceType": "Autonomous Hiring and AI-Led Recruitment",
       "provider": {
-        "@id": "https://www.shortlistd.io/#organization"
+        "@id": "https://www.shortlistd.io#organization"
       },
       "areaServed": {
         "@type": "AdministrativeArea",
@@ -74,6 +78,22 @@
             "url": "https://www.shortlistd.io/pricing"
           }
         ]
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://www.shortlistd.io/pricing#service-rating",
+      "name": "shortlistd.io Autonomous AI Recruitment Service",
+      "url": "https://www.shortlistd.io/pricing",
+      "provider": {
+        "@id": "https://www.shortlistd.io#organization"
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.4",
+        "reviewCount": "80",
+        "bestRating": "5",
+        "worstRating": "1"
       }
     }
   ]
