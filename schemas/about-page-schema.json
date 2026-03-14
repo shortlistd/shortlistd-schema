@@ -8,13 +8,13 @@
       "name": "About shortlistd.io - AI Recruitment Platform Founders & Mission",
       "description": "Meet the founders of shortlistd.io: Adil Gwiazdowski (CEO) and Yatin Vij (CTO). Learn about our mission to transform recruitment with autonomous AI agents.",
       "isPartOf": {
-        "@id": "https://www.shortlistd.io/#website"
+        "@id": "https://www.shortlistd.io#website"
       },
       "breadcrumb": {
         "@id": "https://www.shortlistd.io/about#breadcrumb"
       },
       "about": {
-        "@id": "https://www.shortlistd.io/#organization"
+        "@id": "https://www.shortlistd.io#organization"
       }
     },
     {
@@ -39,7 +39,7 @@
       "@type": "AboutPage",
       "@id": "https://www.shortlistd.io/about#aboutpage",
       "mainEntity": {
-        "@id": "https://www.shortlistd.io/#organization"
+        "@id": "https://www.shortlistd.io#organization"
       }
     },
     {
@@ -50,14 +50,14 @@
       "familyName": "Gwiazdowski",
       "jobTitle": "Co-founder & CEO",
       "worksFor": {
-        "@type": "Organization",
-        "name": "Shortlistd"
+        "@id": "https://www.shortlistd.io#organization"
       },
       "description": "Adil Gwiazdowski is Co-founder & CEO of shortlistd.io, building autonomous AI agents that source, screen, and interview candidates through conversational AI. With 20+ years in recruitment, including directing a $50M ARR tech talent business at Halian, he's focused on solving information asymmetry in modern labor markets.",
-      "url": "https://ae.linkedin.com/in/adilgwiazdowski",
+      "url": "https://www.linkedin.com/in/adilgwiazdowski/",
       "sameAs": [
-        "https://ae.linkedin.com/in/adilgwiazdowski",
-        "https://adilgwiazdowski.bio.link/"
+        "https://www.linkedin.com/in/adilgwiazdowski/",
+        "https://x.com/AdilGwiazdowski",
+        "https://github.com/AdilGwiazdowski"
       ],
       "alumniOf": {
         "@type": "EducationalOrganization",
@@ -96,8 +96,7 @@
       "familyName": "Vij",
       "jobTitle": "Co-founder & Chief Technology Officer",
       "worksFor": {
-        "@type": "Organization",
-        "name": "Shortlistd"
+        "@id": "https://www.shortlistd.io#organization"
       },
       "description": "Yatin Vij is Co-founder & CTO at shortlistd.io with nearly 8 years building large-scale AI systems across healthcare, consulting, and enterprise environments. His specialization in Agentic AI enables autonomous agents that own entire recruitment workflows. Previously built multimodal AI systems at ConcertAI and developed analytics solutions at ZS Associates.",
       "alumniOf": {
@@ -127,8 +126,15 @@
     },
     {
       "@type": "Organization",
-      "name": "Shortlistd",
-      "description": "shortlistd.io was founded in 2023 by Adil Gwiazdowski and Yatin Vij to solve the recruitment trilemma through autonomous AI agents. The platform delivers speed, quality, and cost-effectiveness simultaneously - something that constrained the industry for decades.",
+      "@id": "https://www.shortlistd.io#organization",
+      "name": "shortlistd.io",
+      "legalName": "Shortlistd, Inc.",
+      "url": "https://www.shortlistd.io",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.shortlistd.io/logo.svg"
+      },
+      "description": "shortlistd.io was founded in 2023 by Adil Gwiazdowski and Yatin Vij to solve the recruitment trilemma through autonomous AI agents. The platform delivers speed, quality, and cost-effectiveness simultaneously.",
       "foundingDate": "2023",
       "foundingLocation": {
         "@type": "City",
@@ -139,45 +145,35 @@
         }
       },
       "founder": [
-        {
-          "@id": "https://www.shortlistd.io/about#adil"
-        },
-        {
-          "@id": "https://www.shortlistd.io/about#yatin"
-        }
+        { "@id": "https://www.shortlistd.io/about#adil" },
+        { "@id": "https://www.shortlistd.io/about#yatin" }
       ],
-      "employees": [
-        {
-          "@id": "https://www.shortlistd.io/about#adil"
-        },
-        {
-          "@id": "https://www.shortlistd.io/about#yatin"
-        }
+      "employee": [
+        { "@id": "https://www.shortlistd.io/about#adil" },
+        { "@id": "https://www.shortlistd.io/about#yatin" }
       ],
-      "numberOfEmployees": {
-        "@type": "QuantitativeValue",
-        "value": "2-10"
-      }
+      "sameAs": [
+        "https://www.linkedin.com/company/shortlistd-io",
+        "https://x.com/shortlistdio",
+        "https://github.com/shortlistd",
+        "https://www.youtube.com/@shortlistd",
+        "https://www.trustpilot.com/review/shortlistd.io"
+      ]
     },
     {
       "@type": "Article",
       "@id": "https://www.shortlistd.io/about#founder-story",
       "headline": "How Two Experts Saw the Future of Recruitment Coming",
-      "description": "The story of how Adil Gwiazdowski and Yatin Vij came together to build shortlistd.io, transforming a broken hiring system into the world's first comprehensive AI workforce solution.",
+      "description": "The story of how Adil Gwiazdowski and Yatin Vij came together to build shortlistd.io, transforming a broken hiring system into an autonomous AI recruitment platform.",
       "author": [
-        {
-          "@id": "https://www.shortlistd.io/about#adil"
-        },
-        {
-          "@id": "https://www.shortlistd.io/about#yatin"
-        }
+        { "@id": "https://www.shortlistd.io/about#adil" },
+        { "@id": "https://www.shortlistd.io/about#yatin" }
       ],
       "publisher": {
-        "@id": "https://www.shortlistd.io/#organization"
+        "@id": "https://www.shortlistd.io#organization"
       },
       "datePublished": "2024-08-01",
       "image": "https://framerusercontent.com/images/TtSesE1tU8lbuIRkaoq0aWUWSE.jpg",
-      "articleBody": "The convergence of artificial intelligence and recruitment wasn't an accident-it was inevitable. This is the story of how two visionaries came together to build shortlistd.io, transforming a broken hiring system into the world's first comprehensive AI workforce solution.",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://www.shortlistd.io/blog/how-two-experts-saw-the-future-of-recruitment-coming"
@@ -185,22 +181,19 @@
     },
     {
       "@type": "VideoObject",
+      "@id": "https://www.shortlistd.io/about#founder-video",
       "name": "How Two Experts Saw the Future of Recruitment Coming",
-      "description": "Watch the story of shortlistd.io founders Adil Gwiazdowski and Yatin Vij as they explain their vision for transforming recruitment with AI agents",
+      "description": "Watch the story of shortlistd.io founders Adil Gwiazdowski and Yatin Vij as they explain their vision for transforming recruitment with AI agents.",
       "thumbnailUrl": "https://framerusercontent.com/images/TtSesE1tU8lbuIRkaoq0aWUWSE.jpg",
       "uploadDate": "2024-08-01",
       "contentUrl": "https://www.youtube.com/watch?v=ADsqXFZVp6Q",
       "embedUrl": "https://www.youtube.com/embed/ADsqXFZVp6Q",
       "publisher": {
-        "@id": "https://www.shortlistd.io/#organization"
+        "@id": "https://www.shortlistd.io#organization"
       },
       "creator": [
-        {
-          "@id": "https://www.shortlistd.io/about#adil"
-        },
-        {
-          "@id": "https://www.shortlistd.io/about#yatin"
-        }
+        { "@id": "https://www.shortlistd.io/about#adil" },
+        { "@id": "https://www.shortlistd.io/about#yatin" }
       ]
     }
   ]
