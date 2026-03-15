@@ -1,0 +1,171 @@
+{
+  "slug": "autonomous-hiring",
+  "seo": {
+    "title": "Autonomous Hiring Workflow | shortlistd.io",
+    "description": "See how autonomous AI hiring agents replace manual sourcing, screening, and interviews with a fully automated workflow that delivers decision-ready shortlists in days.",
+    "canonical": "https://www.shortlistd.io/autonomous-hiring"
+  },
+  "hero": {
+    "eyebrow": "Autonomous hiring",
+    "title": "One autonomous workflow from intake to shortlist",
+    "subtitle": "Specialised AI agents handle sourcing, screening, and interviews in parallel so you get decision-ready shortlists in days, not weeks.",
+    "primaryCta": {
+      "label": "See a live autonomous workflow",
+      "href": "/demo"
+    },
+    "secondaryCta": {
+      "label": "Read: What is autonomous hiring?",
+      "href": "/blog/what-is-autonomous-hiring-the-complete-guide-to-ai-recruitment-agents-(2025)"
+    },
+    "workflowImage": {
+      "src": "/media/intake-ai-workflow.png",
+      "alt": "Intake-to-shortlist autonomous hiring workflow"
+    },
+    "proofBadge": {
+      "label": "Designed for GDPR, EU AI Act and NYC Local Law 144",
+      "href": "/blog/is-autonomous-hiring-legal-everything-you-need-to-know-in-2026"
+    }
+  },
+  "workflow": {
+    "title": "How the autonomous hiring workflow actually runs",
+    "subtitle": "Four stages that replace weeks of manual recruiter effort.",
+    "stages": [
+      {
+        "id": "stage-1",
+        "label": "Stage 1",
+        "title": "Intelligent candidate sourcing",
+        "bullets": [
+          "Agents search across LinkedIn, job boards and large professional databases, not just your ATS.",
+          "Semantic matching understands skills, experience and real role fit instead of just keywords.",
+          "Qualified candidates receive personalised outreach within hours of intake."
+        ],
+        "traditionalVsAutonomous": "Days of manual LinkedIn search vs agents surfacing more qualified candidates in a fraction of the time.",
+        "learnMore": {
+          "label": "Learn about semantic sourcing",
+          "href": "/features#semantic-sourcing"
+        }
+      },
+      {
+        "id": "stage-2",
+        "label": "Stage 2",
+        "title": "Automated screening",
+        "bullets": [
+          "Every CV is evaluated against the live intake profile using consistent criteria.",
+          "Work history, skills and seniority are scored for this specific role.",
+          "Top candidates are flagged automatically for interview."
+        ],
+        "traditionalVsAutonomous": "6–8 second human skim reads vs consistent, parallel evaluation of every candidate.",
+        "learnMore": {
+          "label": "See how AI screening works",
+          "href": "/features#screening"
+        }
+      },
+      {
+        "id": "stage-3",
+        "label": "Stage 3",
+        "title": "AI-led interviews",
+        "bullets": [
+          "Structured voice or video interviews available 24/7 in any time zone.",
+          "Role-specific questions probe for depth, examples and competence.",
+          "Interviews are transcribed, summarised and scored automatically."
+        ],
+        "traditionalVsAutonomous": "Manually scheduled phone screens vs instant interviews with richer, comparable insight.",
+        "learnMore": {
+          "label": "Read the AI interview research",
+          "href": "/blog/ai-voice-interviews-outperform-human-recruiters-2025-research-analysis"
+        }
+      },
+      {
+        "id": "stage-4",
+        "label": "Stage 4",
+        "title": "Candidate ranking & presentation",
+        "bullets": [
+          "Full profiles combine interview performance, skills and experience.",
+          "Candidates are ranked by overall fit with clear reasons and evidence.",
+          "Hiring managers see a decision-ready shortlist in days."
+        ],
+        "traditionalVsAutonomous": "Hand-compiled notes and gut feel vs objective, auto-generated shortlists ready to act on.",
+        "learnMore": {
+          "label": "View autonomous shortlisting in action",
+          "href": "/blog/case-study-crypto-banter-reduces-time-to-hire-by-96-percent-with-shortlistd.io"
+        }
+      }
+    ]
+  },
+  "benefits": {
+    "title": "What this workflow delivers in real life",
+    "subtitle": "You still make the hiring decisions; the agents do everything that leads up to them.",
+    "cards": [
+      {
+        "id": "benefit-1",
+        "title": "Shortlists in days, not weeks",
+        "body": "Agents handle intake, screening, sourcing and interviews in parallel, so you see a qualified shortlist within a few days of opening a role instead of waiting for manual pipeline building.",
+        "metric": "Time-to-shortlist cut by 70–90%"
+      },
+      {
+        "id": "benefit-2",
+        "title": "More high-intent candidates per role",
+        "body": "Inbound and sourced candidates are evaluated against the same live profile, so your shortlist is made of people who are both qualified and genuinely interested in the role.",
+        "metric": "3–5x more qualified candidates per search"
+      },
+      {
+        "id": "benefit-3",
+        "title": "Recruiters freed from busywork",
+        "body": "Manual CV checks, outreach, scheduling and first-round interviews are automated, so recruiters focus on calibration, stakeholder management and closing the right candidates.",
+        "metric": "Up to 80% less time on admin"
+      },
+      {
+        "id": "benefit-4",
+        "title": "Stronger signal from every interview",
+        "body": "AI-run interviews and AI copilots produce structured notes, transcripts and risk flags, making it easier to compare candidates and justify every hire.",
+        "metric": "Richer, standardised interview data for every role"
+      }
+    ]
+  },
+  "faq": {
+    "title": "Autonomous hiring, legality, and how it really works",
+    "subtext": "Straight answers on where AI fits into hiring law, why shortlistd.io keeps humans in charge of decisions, and a deeper look in our guide \"Is Autonomous Hiring Legal?\"",
+    "legalGuideLink": {
+      "label": "Read: Is Autonomous Hiring Legal?",
+      "href": "/blog/is-autonomous-hiring-legal-everything-you-need-to-know-in-2026"
+    },
+    "items": [
+      {
+        "question": "Is autonomous hiring actually legal?",
+        "answer": "Yes, when it’s implemented with safeguards around bias, data protection and human oversight. Current laws allow AI in hiring and, done right, it can reduce legal risk compared to inconsistent manual screening."
+      },
+      {
+        "question": "Who is responsible for hiring decisions?",
+        "answer": "You are. Employers remain responsible for outcomes even when using AI. shortlistd.io provides logs, audits and controls so you can show how decisions were made, but humans always own the final call."
+      },
+      {
+        "question": "Does autonomous hiring replace recruiters?",
+        "answer": "No. Agents handle sourcing, screening and first-round interviews. Recruiters and hiring managers focus on calibration, stakeholder alignment and final decisions instead of repetitive admin."
+      },
+      {
+        "question": "Can AI be fairer than humans?",
+        "answer": "It can. AI decisions can be tested and tuned for bias in ways human decisions can’t. With regular bias audits and clear rules, you get more consistent, explainable outcomes than manual review alone."
+      },
+      {
+        "question": "Are fully automated, no-human decisions allowed?",
+        "answer": "For hiring, best practice and regulation expect a human in the loop. shortlistd.io uses a human-in-command model: AI recommends and explains; humans review, override and approve final decisions."
+      },
+      {
+        "question": "What do candidates need to know?",
+        "answer": "You should clearly tell candidates when AI is used, what it evaluates and how they can ask questions or request human review. The platform helps you send compliant, plain-language notices by default."
+      },
+      {
+        "question": "How is candidate data protected?",
+        "answer": "Autonomous hiring follows modern privacy standards: minimal data collection, secure storage, clear retention limits and options for candidates to access or delete their data where required."
+      },
+      {
+        "question": "What if the AI makes a bad or biased call?",
+        "answer": "On shortlistd.io, AI never makes the final decision. The system suggests who to move forward, but humans review the evidence, can disagree with any recommendation and document their decision instead."
+      },
+      {
+        "question": "Why adopt autonomous hiring now?",
+        "answer": "Teams using autonomous workflows are already hiring faster, at lower cost, with better documentation. You gain speed and consistency today while staying aligned with emerging AI and hiring regulations."
+      }
+    ]
+  }
+}
